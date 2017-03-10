@@ -1,0 +1,31 @@
+<section class="container" ng-controller="ThemesCtrl">
+  <div class="row">
+
+    <!--Espace de Recherche-->
+    <div class="col-md-4"></div>
+    <div class="col-md-4 form-group">
+      <form class="form-inline" id="searchForm">
+        <div class="form-group">
+         <label for="Search"></label>
+         <input type="text" class="form-control" id="Search" placeholder="Search" ng-model="searchTitle">
+       </div>
+       <button type="submit" class="btn btn-info">Search</button>
+      </form>
+    </div>
+    <div class="col-md-4"></div>
+
+    <!--Espace Themes-->
+    <div class="col-md-12">
+      <div class="col-md-4" ng-repeat="Theme in Themes | filter: {titre:searchTitle}">
+        <div class="thumbnail panel panel-primary Theme">
+          <div class="panel-heading"><h3 class="panel-title">{{Theme.titre}}</h3></div>
+          <img src="{{Theme.imageSrc}}">
+          <div class="caption">
+            <p class="resum">{{Theme.resum}}</p>
+            <p class="vertalin"><a href="{{Theme.url}}" class="btn btn-primary" role="button">Lire la suite</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!--END ROW-->
+</section><!--END container-->

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--META-->
+    <meta name="description" content="Website about Universe in AngularJS">
+    <meta name="keywords" content="AngularJs, universe, galaxy, solar system, planets">
+    <meta name="author" content="starlord">
+    <meta charset="utf-8">
+    <!--CSS Link-->
+    <link rel="stylesheet" href="https://bootswatch.com/darkly/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Starlord</title>
+  </head>
+  <body ng-app="starlord">
+    <header>
+      <ng-include src=" 'menu.html' "></ng-include>
+    </header>
+    <div ng-view></div>
+  <!--Script JS + Framework-->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+  <script src="https://code.angularjs.org/1.6.1/angular-route.min.js"></script>
+  <script src="script/app.js"></script>
+  <script src="script/ThemesCtrl.js"></script>
+
+  </body>
+</html>

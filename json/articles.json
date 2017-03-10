@@ -1,0 +1,78 @@
+[{
+  "titre" :"Jupiter",
+  "theme" : "Planète",
+  "description" : "Jupiter est une planète géante gazeuse. Il s'agit de la plus grosse planète du Système solaire, plus volumineuse et massive que toutes les autres planètes réunies, et la cinquième planète par sa distance au Soleil.",
+  "url" : "https://fr.wikipedia.org/wiki/Jupiter_(planète)",
+  "qualite" : true
+  },
+  {
+    "titre" :"Ceinture de Kuiper",
+    "theme" : "Système Solaire",
+    "description" : "La ceinture de Kuiper (parfois appelée ceinture d'Edgeworth-Kuiper), est une zone du Système solaire s'étendant au-delà de l'orbite de Neptune, entre 30 et 55 unités astronomiques.",
+    "url" : "https://fr.wikipedia.org/wiki/Ceinture_de_Kuiper",
+    "qualite" : true
+  },
+  {
+    "titre" :"Pluton",
+    "theme" : "Planète",
+    "description" : "Pluton, officiellement désignée par (134340)Pluton, est la planète naine la plus volumineuse (2 372 km de diamètre, contre 2 326 km pour Éris) connue du Système solaire et la deuxième au niveau de la masse (après Éris).",
+    "url" : "https://fr.wikipedia.org/wiki/Pluton_(planète_naine)",
+    "qualite" : true
+  },
+  {
+    "titre" :"New Horizons",
+    "theme" : "Sonde Spatiale",
+    "description" : "New Horizons est une mission de l'agence spatiale américaine (NASA) dont l'objectif principal est d'étudier la planète naine Pluton et ses satellites grâce à une sonde spatiale qui les a survolés mi-juillet 2015.",
+    "url" : "https://fr.wikipedia.org/wiki/New_Horizons",
+    "qualite" : false
+  },
+  {
+    "titre" :"NGC 1300",
+    "theme" : "Galaxie",
+    "description" : "NGC 1300 est une galaxie spirale barrée située dans la constellation de l'Éridan à environ 72 millions d'années-lumière de la Voie lactée. ",
+    "url" : "https://fr.wikipedia.org/wiki/NGC_1300",
+    "qualite" : false
+  },
+  {
+    "titre" :"NGC 5866",
+    "theme" : "Galaxie",
+    "description" : "NGC 5866, également appelée galaxie du Fuseau, est une galaxie assez brillante de type lenticulaire ou spiral située dans la constellation du Dragon à environ 46 millions d'années-lumière (14,1 Mpc) du Système solaire.",
+    "url" : "https://fr.wikipedia.org/wiki/NGC_5866",
+    "qualite" : false
+  },
+  {
+    "titre" :"Formation et évolution du Système solaire",
+    "theme" : "Système Solaire",
+    "description" : "La formation et l'évolution du Système solaire sont déterminées par un modèle aujourd'hui très largement accepté et connu sous le nom d'« hypothèse de la nébuleuse solaire ».",
+    "url" : "https://fr.wikipedia.org/wiki/Formation_et_évolution_du_Système_solaire",
+    "qualite" : true
+  },
+  {
+    "titre" :"Galaxie spirale",
+    "theme" : "Galaxie",
+    "description" : "Une galaxie spirale est généralement un ensemble comprenant jusqu'à plusieurs centaines de milliards d'étoiles. Elles adoptent la forme aplatie d'un disque, avec un renflement central sphérique lumineux appelé le bulbe.",
+    "url" : "https://fr.wikipedia.org/wiki/Galaxie_spirale",
+    "qualite" : false
+  },
+  {
+    "titre" :"Hubble",
+    "theme" : "Télescope Spatial",
+    "description" : "Le télescope spatial Hubble (en anglais Hubble Space Telescope, en abrégé HST) est un télescope spatial développé par la NASA avec une participation de l'Agence spatiale européenne qui est opérationnel depuis 1990.",
+    "url" : "https://fr.wikipedia.org/wiki/Hubble_(télescope_spatial)",
+    "qualite" : false
+  },
+  {
+    "titre" :"NGC 205",
+    "theme" : "Galaxie",
+    "description" : "M110, souvent appelée NGC 205, est une galaxie elliptique naine de type dE6 appartenant au Groupe local. Satellite de la galaxie d'Andromède, elle est située à environ 2,7 millions d'années-lumière (830 kpc) du Soleil dans la constellation d'Andromède.",
+    "url" : "https://fr.wikipedia.org/wiki/NGC_205",
+    "qualite" : false
+  },
+  {
+    "titre" :"Zeta Reticuli",
+    "theme" : " Etoile Binaire",
+    "description" : "Zeta Reticuli est une étoile binaire située à une distance de 39 années-lumière de la Terre dans la constellation australe du Réticule. Dans un ciel suffisamment sombre, les deux étoiles sont visibles à l'œil nu et apparaissent comme une paire rapprochée d'étoiles distinctes.",
+    "url" : "https://fr.wikipedia.org/wiki/Zeta_Reticuli",
+    "qualite" : false
+  }
+]

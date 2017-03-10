@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!--CSS Link-->
+    <link rel="stylesheet" href="https://bootswatch.com/darkly/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/daneden/animate.css/master/animate.css">
+
+    <title>Starlord</title>
+  </head>
+  <body ng-app="starlord">
+    <header>
+      <ng-include src=" 'menu.html' "></ng-include>
+    </header>
+    <section class="container">
+      <div class="row">
+        <div class="col-md-12" ng-controller="animateCtrl">
+          <img src="images/systemeSolaire/01.png" usemap="#systemeSolaire" id="imgSolaire" width="992" height="528">
+
+          <map name="systemeSolaire">
+            <area shape="circle" coords="0, 273, 262" href="#sun" alt="sun" >
+            <area shape="circle" coords="168,273,7" href="#" alt="mercure">
+            <area shape="circle" coords="214, 273, 20" href="#" alt="venus">
+            <area shape="circle" coords="271, 273, 20" href="#" alt="terre">
+            <area shape="circle" coords="317, 273, 11" href="#" alt="mars">
+            <area shape="circle" coords="434, 273, 60" href="#" alt="jupiter">
+            <area shape="circle" coords="620, 273, 47" href="#" alt="saturne">
+            <area shape="circle" coords="765,273, 22" href="#" alt="uranus">
+            <area shape="circle" coords="822,273, 21" href="#" alt="neptune">
+          </map>
+        </div>
+      </div>
+    </section>
+    <script src="https://code.angularjs.org/1.6.1/angular-animate.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+    <script src="script/app.js"></script>
+    <script src="script/AnimateCtrl.js"></script>
+    </body>
+</html>

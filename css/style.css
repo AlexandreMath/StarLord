@@ -1,0 +1,35 @@
+body{
+    /*background-color: #D0D2E5;
+    background-image: url('../images/milkyway1.jpg');*/
+}
+.panel-title{
+    text-align: center;
+}
+
+#searchForm{
+  margin-top: 20%;
+  margin-bottom: 10%;
+}
+.Theme{
+  height: 450px;
+}
+.resum{
+  height: 100px;
+}
+.vertalin{
+  float: left;
+}
+#articles{
+  margin-top: 10%;
+}
+#article{
+  margin: 5px;
+}
+#FormArticles input{
+  margin: 5px;
+}
+
+#imgSolaire{
+  margin-left: 7%;
+  margin-top: 6%;
+}

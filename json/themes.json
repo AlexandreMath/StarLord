@@ -1,0 +1,20 @@
+[
+  {"id" : "1",
+  "titre" :"Galaxie",
+  "imageSrc" : "images/Andromeda_Galaxy.jpg",
+  "resum" : "Une galaxie est un assemblage d'étoiles, de gaz, de poussières et de matière noire, contenant parfois un trou noir supermassif en son centre.",
+  "url" : "galaxie.html"
+  },
+  {"id" : "2",
+  "titre" :"Système solaire",
+  "imageSrc" : "images/Solar_sys.jpg",
+  "resum" : "Le Système solaire, est notre système planétaire, composé d'une étoile, le Soleil, et des objets célestes définis gravitant autour de lui.",
+  "url" : "systemeSolaire.html"
+  },
+  {"id" : "3",
+  "titre" :"Planète",
+  "imageSrc" : "images/Kepler186f-ArtistConcept.jpg",
+  "resum" : "Une planète est un corps céleste orbitant autour du Soleil ou d'une autre étoile et possédant une masse suffisante pour que sa gravité la maintienne en équilibre hydrostatique, c'est-à-dire sous une forme presque sphérique.",
+  "url" : "planete.html"
+  }
+]
