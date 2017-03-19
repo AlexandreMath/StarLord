@@ -1,3 +1,4 @@
+/*Script AngularJS qui contient le module et la configuration des routes*/
 var app = angular.module('starlord', ['ngRoute']);
 
 app.config(function($routeProvider){

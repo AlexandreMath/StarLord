@@ -13,9 +13,11 @@
     <title>Starlord</title>
   </head>
   <body ng-app="starlord">
+    <!--Le menu est inclue grâce à ng-include-->
     <header>
       <ng-include src=" 'menu.html' "></ng-include>
     </header>
+    <!--ng-view appel la page home.html qui contient les données-->
     <div ng-view></div>
   <!--Script JS + Framework-->
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>

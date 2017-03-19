@@ -1,26 +1,27 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>Galaxie</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-        <meta name="description" content="StarLord" />
-        <meta name="keywords" content="star, galaxy, planete"/>
-        <!--CSS Link-->
-        <link rel="stylesheet" href="https://bootswatch.com/darkly/bootstrap.min.css">
-        <link rel="stylesheet" href="css/styleGalaxie.css" type="text/css" media="screen"/>
-    </head>
-    <body>
-      <header>
-        <ng-include src=" 'menu.html' "></ng-include>
-      </header>
-      <div class="title">
-            <h1>Galaxie</h1>
-      </div>
-        <div id="content">
-
-          <div id="littleBoxes" class="littleBoxes">
-              <div class="bg5" style="background-position:90px 0;top:0px;left:-95px;"></div>
-                <div class="boxlink bg1" style="top:0px;left:0px;">
+  <head>
+    <!--META-->
+    <meta name="description" content="Website about Universe in AngularJS">
+    <meta name="keywords" content="AngularJs, universe, galaxy, solar system, planets">
+    <meta name="author" content="starlord">
+    <meta charset="utf-8">
+    <!--CSS Link-->
+    <link rel="stylesheet" href="https://bootswatch.com/darkly/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styleGalaxie.css" type="text/css" media="screen"/>
+    <title>Galaxie</title>
+  </head>
+  <body ng-app="starlord">
+    <header>
+      <ng-include src=" 'menu.html' "></ng-include>
+    </header>
+    <div class="title">
+          <h1>Galaxie</h1>
+    </div>
+    <div id="content">
+      <div id="littleBoxes" class="littleBoxes">
+        <div class="bg5" style="background-position:90px 0;top:0px;left:-95px;"></div>
+        <div class="boxlink bg1" style="top:0px;left:0px;">
                     <a href="">Voie Lactée</a>
                     <div class="boxcontent">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
@@ -178,5 +179,9 @@
                 });
             });
         </script>
+        <!--Script JS + Framework-->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+        <script src="https://code.angularjs.org/1.6.1/angular-route.min.js"></script>
+        <script src="script/app.js"></script>
     </body>
 </html>

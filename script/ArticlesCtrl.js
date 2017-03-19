@@ -1,3 +1,5 @@
+/*Controller qui gère les articles, une première fonctionnalité qui sert à aller chercher les articles dans le json
+Une deuxième fonctionnalité qui sert à afficher les articles de qualités(mit à true)*/
 app.controller('ArticlesCtrl', function($scope, $http, $filter){
 
   $scope.search = {};

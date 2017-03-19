@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!--META-->
+    <meta name="description" content="Website about Universe in AngularJS">
+    <meta name="keywords" content="AngularJs, universe, galaxy, solar system, planets">
+    <meta name="author" content="starlord">
     <meta charset="utf-8">
     <!--CSS Link-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
     <link rel="stylesheet" href="https://bootswatch.com/darkly/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://raw.githubusercontent.com/daneden/animate.css/master/animate.css">
 
     <title>Starlord</title>
   </head>
@@ -15,26 +19,34 @@
     </header>
     <section class="container">
       <div class="row">
-        <div class="col-md-12" ng-controller="animateCtrl">
+        <div class="col-md-12" ng-controller="SolaireCtrl">
           <img src="images/systemeSolaire/01.png" usemap="#systemeSolaire" id="imgSolaire" width="992" height="528">
 
-          <map name="systemeSolaire">
-            <area shape="circle" coords="0, 273, 262" href="#sun" alt="sun" >
-            <area shape="circle" coords="168,273,7" href="#" alt="mercure">
-            <area shape="circle" coords="214, 273, 20" href="#" alt="venus">
-            <area shape="circle" coords="271, 273, 20" href="#" alt="terre">
-            <area shape="circle" coords="317, 273, 11" href="#" alt="mars">
-            <area shape="circle" coords="434, 273, 60" href="#" alt="jupiter">
-            <area shape="circle" coords="620, 273, 47" href="#" alt="saturne">
-            <area shape="circle" coords="765,273, 22" href="#" alt="uranus">
-            <area shape="circle" coords="822,273, 21" href="#" alt="neptune">
-          </map>
+            <map name="systemeSolaire">
+              <area shape="circle" coords="0, 273, 262" href="#" alt="sun" ng-click="toggleModal('sun')">
+              <area shape="circle" coords="168,273,7" href="#" alt="mercure" ng-click="toggleModal()">
+              <area shape="circle" coords="214, 273, 20" href="#" alt="venus" ng-click="toggleModal()">
+              <area shape="circle" coords="271, 273, 20" href="#" alt="terre" ng-click="toggleModal()">
+              <area shape="circle" coords="317, 273, 11" href="#" alt="mars" ng-click="toggleModal()">
+              <area shape="circle" coords="434, 273, 60" href="#" alt="jupiter" ng-click="toggleModal()">
+              <area shape="circle" coords="620, 273, 47" href="#" alt="saturne" ng-click="toggleModal()">
+              <area shape="circle" coords="765,273, 22" href="#" alt="uranus" ng-click="toggleModal()">
+              <area shape="circle" coords="822,273, 21" href="#" alt="neptune" ng-click="toggleModal()">
+            </map>
+
+            <modal visible="showModal">
+              <div ng-include="{{url}}"></div>
+            </modal>
         </div>
       </div>
     </section>
-    <script src="https://code.angularjs.org/1.6.1/angular-animate.min.js"></script>
+    <!--Script JS-->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://code.angularjs.org/1.6.1/angular-route.min.js"></script>
     <script src="script/app.js"></script>
-    <script src="script/AnimateCtrl.js"></script>
-    </body>
+    <script src="script/sysSolaireCtrl.js"></script>
+    <script src="script/ModalDirective.js"></script>
+  </body>
 </html>
